@@ -1,0 +1,35 @@
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.cancle-btn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.signup-btn {
+    padding: 14px 20px;
+    background-color: #04AA6D;
+}
+
+.signup-btn, .cancle-btn {
+    float: left;
+    width: 50%;   
+    border: none;
+}
